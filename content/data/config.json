@@ -46,7 +46,7 @@
         "has_secondary_nav": true,
         "secondary_nav_links": [
             {
-                "label": "App Store",
+                "label": "Log ",
                 "url": "/pricing",
                 "style": "primary"
             },
