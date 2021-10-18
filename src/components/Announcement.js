@@ -52,7 +52,7 @@ export default class Announcement extends React.Component {
         const { isHidden } = this.state;
 
         return (
-            <div
+            <div>
                 .
             </div>
         );
