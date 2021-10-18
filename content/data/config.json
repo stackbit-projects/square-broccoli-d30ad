@@ -46,7 +46,7 @@
         "has_secondary_nav": true,
         "secondary_nav_links": [
             {
-                "label": "Log ",
+                "label": "Log in",
                 "url": "/pricing",
                 "style": "primary"
             },
