@@ -53,7 +53,6 @@ export default class Announcement extends React.Component {
 
         return (
             <div>
-                //this just for 
             </div>
         );
     }
