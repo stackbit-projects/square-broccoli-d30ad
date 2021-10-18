@@ -53,35 +53,7 @@ export default class Announcement extends React.Component {
 
         return (
             <div
-                className={classNames('announcement-bar', 'py-2', {
-                    'js-announcement': anncmntHasClose,
-                    'is-hidden': anncmntHasClose && isHidden
-                })}
-                {...(anncmntHasClose ? ({ "data-anncmnt-id": anncmntId }) : null)}
-                ref={this.anncmntRef}
-            >
-                <div className="container">
-                    <div className="announcement-bar__content">
-                        <div
-                            className={classNames('announcement-bar__copy', {
-                                'text-center': anncmntAlignX === 'center',
-                                'text-right': anncmntAlignX === 'right'
-                            })}
-                        >
-                            {markdownify(anncmntContent)}
-                        </div>
-                        {anncmntHasClose && (
-                            <button
-                                aria-label="Close"
-                                className="btn btn--icon btn--clear js-announcment-close"
-                                onClick={this.handleAnncmntClose.bind(this)}
-                            >
-                                <Icon icon={'close'} />
-                                <span className="sr-only">Close</span>
-                            </button>
-                        )}
-                    </div>
-                </div>
+                .
             </div>
         );
     }
