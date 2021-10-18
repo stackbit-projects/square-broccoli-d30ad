@@ -13,7 +13,7 @@
         "has_primary_nav": true,
         "primary_nav_links": [
             {
-                "label": "Pri",
+                "label": "Plan",
                 "url": "/pricing",
                 "style": "link"
             },
